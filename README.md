@@ -1,6 +1,6 @@
 # Blacklist Name Matching
 Program to find the best match in a given blacklist.
-___
+
 ## General info
 This program has three input parameters: 
 * **input** - The name to validate against blacklist.
@@ -32,11 +32,11 @@ the
 * Calculate score: `2/3 + 1/(3+3) = ~0.833` where
     * `2/3` - similar words/total amount of blacklist words
     * `1/(3+3)` - different words/(total amount of blacklist words + Levenshtein distance)
-___
+
 ## Technologies
 Project is created with:
 * Java 17
 * Maven
-___
+
 ## Setup
 To run this project, install it locally and run via IDE.
